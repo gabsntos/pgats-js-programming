@@ -1,0 +1,28 @@
+echo "# pgats-programacao-js" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin <url do repo de vcs>
+git push -u origin main
+
+git status - verificar os arquivos alterados 
+git add <arquivo ou ponto> - para adicionar arquivos na área de 'staging'
+git commit -m "mensagem" - para confirmar os arquivos adicionados 
+git push - para enviar os arquivos confirmados para o github
+
+//
+
+create a new repository on the command line
+echo "# pgats-js-programming" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gabsntos/pgats-js-programming.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/gabsntos/pgats-js-programming.git
+git branch -M main
+git push -u origin main
