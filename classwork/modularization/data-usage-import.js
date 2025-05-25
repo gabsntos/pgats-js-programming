@@ -1,4 +1,4 @@
-import {dogs, food} from './data.js'
+import {dogs, food} from './data-export.js'
 
 dogs.forEach((dog, index) => {
     const foodItem = Object.values(food[index])[0]
