@@ -6,6 +6,9 @@
  * TDD stands for Test-Driven Development, a software development methodology where tests are written
  *  before the code that will be tested. This iterative process focuses on creating tests, writing code 
  *  to pass those tests, and then refactoring the code
+ * 
+ * how to run: npx mocha tests/test-file.js
+ * 
  */
 
 describe('test suit', () => {
