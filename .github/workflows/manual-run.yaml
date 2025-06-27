@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  e2e-tests:
+  mocha-unit-tests:
 
     runs-on: windows-latest
 
@@ -20,4 +20,4 @@ jobs:
         run: npm install mocha --save-dev
       
       - name: executing mocha tests
-        run: npm install mocha --save-dev
+        run: npx mocha tests/test-file.js
