@@ -1,15 +1,13 @@
-name: 'manual run pipeline'
+name: "manual run pipeline"
 
 on:
   workflow_dispatch:
 
 jobs:
   e2e-tests:
-
     runs-on: windows-latest
 
     steps:
-
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
@@ -18,6 +16,6 @@ jobs:
 
       - name: installing mocha
         run: npm install mocha --save-dev
-      
+
       - name: executing mocha tests
         run: npx mocha tests/test-file.js
