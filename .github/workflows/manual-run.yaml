@@ -1,4 +1,4 @@
-name: "manual run pipeline"
+name: "manual-run-pipeline"
 
 on:
   workflow_dispatch:
